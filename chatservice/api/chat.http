@@ -1,0 +1,22 @@
+POST http://localhost:8080/chat HTTP/1.1
+Content-Type: application/json
+Authorization: 123456
+
+{
+    "user_id":"1",
+    "user_message":"Olá qual é o seu nome?"
+}
+
+### 
+
+POST http://localhost:8080/chat HTTP/1.1
+Content-Type: application/json
+Authorization: 123456
+
+{
+    "user_id":"1",
+    "chat_id":"d93453a7-50e4-4472-a9bf-c54d5f12416d",
+    "user_message":"Quero saber mais sobre arquitetura de software?"
+}
+
+// 1:38:01
